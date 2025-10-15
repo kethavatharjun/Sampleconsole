@@ -21,5 +21,9 @@ public class Program
         ForLoopPractice forLoopPractice = new ForLoopPractice();
         int result1 = forLoopPractice.SumOfMultiplyOfEachNumberwithTwo(2, 5); // Example range from 2 to 5
         Console.WriteLine($"The sum of each number multiplied by 2 from 2 to 5 is: {result1}");
+        //Create an instance of PrintEvenNumbers and call the method to calculate the sum of multiplied numbers in a range 
+        Console.WriteLine($"Even numbers are:");
+        PrintEvenNumbers evenNumbers = new PrintEvenNumbers();
+        int result2 = evenNumbers.PrintEvenNumbersRange(1, 10);
     }
 }
