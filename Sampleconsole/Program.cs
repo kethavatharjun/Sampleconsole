@@ -12,5 +12,10 @@ public class Program
         // Create an instance of ProductOfNumbers and call the method to calculate the product
         ProductOfNumbers productOfNumbers = new ProductOfNumbers();
         productOfNumbers.CanculateProduct();
+
+        // Create an instance of ForLoopTest and call the method to calculate the product in a range
+        ForLoopTest forLoopTest = new ForLoopTest();
+        int result = forLoopTest.CalculateProduct(1, 5); // Example range from 1 to 5
+        Console.WriteLine($"The product of numbers from 1 to 5 is: {result}");
     }
 }
