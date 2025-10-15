@@ -8,19 +8,21 @@ namespace Sampleconsole
 {
     public class PrintEvenNumbers
     {
+        //print even number from range  1 to 20 which are greater than 10
         public int PrintEvenNumbersRange(int start, int end)
         {
-            int Even = start;
+            int EvenNumber = start;
             {
                 for (int i = start; i < end; i++)
                 {
-                    if (i % 2 == 0)
+                    if (i % 2 == 0 && i > 10 && i<18)
                     {
                         Console.WriteLine(i);
                     }
                 }
             }
-            return Even;
+            return EvenNumber;
         }
+        
     }
 }

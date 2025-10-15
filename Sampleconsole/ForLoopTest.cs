@@ -23,7 +23,7 @@ namespace Sampleconsole
                 {
 
                     productOfRangeNumber *= i;
-                  
+
                 }
             }
             return productOfRangeNumber;
