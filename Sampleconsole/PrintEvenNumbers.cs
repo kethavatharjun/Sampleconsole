@@ -8,21 +8,23 @@ namespace Sampleconsole
 {
     public class PrintEvenNumbers
     {
-        //print even number from range  1 to 20 which are greater than 10 and less than 18
+        /*Write a C# program to find the sum of all even numbers between 1 and a given number N
+         * , using only one for loop."*/
+
         public int PrintEvenNumbersRange(int start, int end)
         {
             int EvenNumber = start;
             {
                 for (int i = start; i < end; i++)
                 {
-                    if (i % 2 == 0 && i>10 && i<18)
+                    if (i % 2 != 0 && i % 3 == 0)
                     {
-                        Console.WriteLine(i);
+                        Console.WriteLine($"I am Multiple of 3 and value is {i}");
                     }
                 }
             }
             return EvenNumber;
         }
-        
+
     }
 }

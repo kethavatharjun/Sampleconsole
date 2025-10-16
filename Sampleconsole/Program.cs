@@ -24,26 +24,23 @@ public class Program
         ////Create an instance of PrintEvenNumbers and call the method to calculate the sum of multiplied numbers in a range 
         //Console.WriteLine($"Even numbers are:");
         //PrintEvenNumbers evenNumbers = new PrintEvenNumbers();
-        //int result2 = evenNumbers.PrintEvenNumbersRange(1, 20);
-        //int number = 2;
+        //int result2 = evenNumbers.PrintEvenNumbersRange(2, 20);
+        //PrintOddNumbers oddNumbers = new PrintOddNumbers();
+        //int result3 = oddNumbers.PrintOddNumbersRange(2, 20);
+        //int number = 2;s
         //Console.WriteLine((number % 2 == 0) ? true : false);
-        /*Write a program to read the value from the console and check if it is even
-        if
-        even
-        Print the multiplication of the number.*/
-        int even;
-        Console.WriteLine("Enter a number:");
-        even = Convert.ToInt32(Console.ReadLine());
-        if (even % 2 == 0)
+        /*Write a C# program to find the sum of all even numbers between 1 
+         * and a given number N, using only one for loop..*/
+        Console.Write("Enter a Number: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        int sum = 0;
+        for (int i = 1; i <= number; i++)
         {
-            for (int i = 1; i <=10; i++)
+            if (i % 2 == 0)
             {
-                Console.WriteLine($"{even} * {i} = {even * i}");
+                sum += i;
             }
         }
-        else
-        {
-            Console.WriteLine("It's not an even number");
-        }
+        Console.WriteLine("Sum of all even numbers between 1 to {0} = {1}", number, sum);
     }
 }
