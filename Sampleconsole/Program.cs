@@ -23,9 +23,27 @@ public class Program
         //Console.WriteLine($"The sum of each number multiplied by 2 from 2 to 5 is: {result1}");
         ////Create an instance of PrintEvenNumbers and call the method to calculate the sum of multiplied numbers in a range 
         //Console.WriteLine($"Even numbers are:");
-        PrintEvenNumbers evenNumbers = new PrintEvenNumbers();
-        int result2 = evenNumbers.PrintEvenNumbersRange(1, 20);
-        int number = 2;
-        Console.WriteLine((number % 2 == 0) ? true : false);
+        //PrintEvenNumbers evenNumbers = new PrintEvenNumbers();
+        //int result2 = evenNumbers.PrintEvenNumbersRange(1, 20);
+        //int number = 2;
+        //Console.WriteLine((number % 2 == 0) ? true : false);
+        /*Write a program to read the value from the console and check if it is even
+        if
+        even
+        Print the multiplication of the number.*/
+        int even;
+        Console.WriteLine("Enter a number:");
+        even = Convert.ToInt32(Console.ReadLine());
+        if (even % 2 == 0)
+        {
+            for (int i = 1; i <=10; i++)
+            {
+                Console.WriteLine($"{even} * {i} = {even * i}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("It's not an even number");
+        }
     }
 }
