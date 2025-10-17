@@ -55,7 +55,25 @@ public class Program
          * if number is 2 then Subtraction of Number
          * 3 then maximum of element
          * 4 then  code related to the printing of numbers in between the range*/
-            MenuBasedProgram menuBasedProgram = new MenuBasedProgram();
-        int result4 = menuBasedProgram.MenuBasedProgramChoice();
+        //    MenuBasedProgram menuBasedProgram = new MenuBasedProgram();
+        //int result4 = menuBasedProgram.MenuBasedProgramChoice();
+        /*A
+         * B B
+         * C C C
+         * D D D D
+         * E E E E E*/
+        //for (int i = 0; i <= 4; i++)
+        //{
+        //    for (int j = 0; j <= 4; j++)
+        //    {
+        //        if (i >= j)
+        //        {
+        //            Console.Write((char)('1' + i) + " ");
+        //        }
+        //    }
+        //    Console.WriteLine();
+        //}
+        RangeOfString rangeOfString = new RangeOfString();
+        rangeOfString.RangeOfStringRange();
     }
 }
