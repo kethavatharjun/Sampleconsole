@@ -73,7 +73,9 @@ public class Program
         //    }
         //    Console.WriteLine();
         //}
-        RangeOfString rangeOfString = new RangeOfString();
-        rangeOfString.RangeOfStringRange();
+        //RangeOfString rangeOfString = new RangeOfString();
+        //rangeOfString.RangeOfStringRange();
+        Unicode unicode = new Unicode();
+         char result5= unicode.UnicodeValues();
     }
 }
