@@ -10,8 +10,8 @@ namespace Sampleconsole
     {
         public char UnicodeValues()
         {
-            char letter = 'a';
-            for (int i = 65; i <= 90; i++)
+            char letter = '0';
+            for (int i = 97; i <= 122; i++)
             {
                 letter = (char)i;
                 Console.Write(letter+ " ");
