@@ -32,8 +32,10 @@ namespace Sampleconsole
            // ForLoop name = new ForLoop();
            // //method calling
            // int result = name.Sum(2, 3);
-            ProgramString programString = new ProgramString();
-            int result1 = programString.ProgramStringRange(11, 16);
+            //ProgramString programString = new ProgramString();
+            //int result1 = programString.ProgramStringRange(11, 16);
+            Pattern1 s = new Pattern1();
+            s.PatternRange1();
         }
     }
 }
